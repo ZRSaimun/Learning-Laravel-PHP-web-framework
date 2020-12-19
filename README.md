@@ -1,5 +1,5 @@
 
-# online shop management system
+# Online Shop Management System
 Lab_Exam
 =======
 login and registration to the system
