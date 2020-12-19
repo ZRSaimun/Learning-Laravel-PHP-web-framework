@@ -1,6 +1,6 @@
 
-# Laravel-PHP-Framework
-Class Work
+# online shop management system
+Lab_Exam
 =======
 login and registration to the system
 user type restriction
