@@ -1,4 +1,4 @@
-# Laravel-PHP-Framework
+# Online Shop Management System
 Lab Exam
 =======
  login and registration to the system	
