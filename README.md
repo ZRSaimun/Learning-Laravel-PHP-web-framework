@@ -1,4 +1,4 @@
-# Laravel-PHP-Framewo
+# Laravel-PHP-Framework
 Lab Exam
 =======
  login and registration to the system	
