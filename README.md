@@ -1,7 +1,6 @@
-# login and registration to the system
-# user type restriction 
-# admin feature restriction for employee.
-# session 
-# admin can manage employee(edit delete)
-# employee can only view lists
-# validation added using request
+<<<<<<< HEAD
+# Laravel-PHP-Framework
+Class Work
+=======
+# Learning-Laravel-PHP-web-framework
+>>>>>>> b1124b61e30fe70e3ff6193efa1abcd0455009a6
