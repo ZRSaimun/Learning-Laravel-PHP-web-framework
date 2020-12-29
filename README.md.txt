@@ -2,6 +2,5 @@
 # user type restriction 
 # admin feature restriction for employee.
 # session 
-# admin can manage employee(edit delete)
+# admin can manage employee
 # employee can only view lists
-# validation added using request
