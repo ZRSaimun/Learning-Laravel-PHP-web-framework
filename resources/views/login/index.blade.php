@@ -8,7 +8,7 @@
 	<form method="post">
 	@csrf
 		<fieldset>
-			<legend>Login</legend>
+		<h1 align="center"><legend>Login</legend> </h1>
 		<table>
 			<tr>
 				<td>Username</td>

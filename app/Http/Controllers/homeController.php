@@ -16,6 +16,32 @@ class homeController extends Controller
         //$name = $req->session()->get('username');
         return view('home.index');
     }
+    public  function create(){
+        return view('home.register');
+    }
+
+    public  function store(UserRequest $req){
+
+        
+        		
+                $user = new User();
+
+
+                $user->username     = $req->username;
+                $user->password     = $req->password;
+                $user->employeeName = $req->name;
+                $user->contactNo    = $req->contactNo;
+
+
+                if($user->save()){
+                    return redirect()->route('home.employeelist');
+                }else{
+                    return back();
+                }
+
+        	}
+        
+
 
     public function employeelist(){
         $users =User::all();
@@ -32,16 +58,17 @@ class homeController extends Controller
 
     public function edit($id){
       $user = User::find($id);
-     // return view('home.edit', $user);
+        return view('home.updateEmployee', $user);
          }
 
     public function update($id, Request $req){
 
+
             $user = User::find($id); 
             $user->username     = $req->username;
             $user->password     = $req->password;
-            $user->name         = $req->name;
-            $user->contactNo         = $req->contactNo;
+            $user->employeeName = $req->name;
+            $user->contactNo    = $req->contact;
             $user->save();
     
             return redirect()->route('home.employeelist');
